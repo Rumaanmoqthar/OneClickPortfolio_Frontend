@@ -1,10 +1,14 @@
-<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="32" cy="32" r="30" fill="url(#paint0_linear_1_2)"/>
-  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="'Segoe UI', 'Roboto', sans-serif" font-size="28" font-weight="bold" fill="white">OC</text>
-  <defs>
-    <linearGradient id="paint0_linear_1_2" x1="32" y1="2" x2="32" y2="62" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#4338CA"/>
-      <stop offset="1" stop-color="#818CF8"/>
-    </linearGradient>
-  </defs>
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="logo-gradient" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#60A5FA" /> <!-- blue-400 -->
+            <stop offset="100%" stop-color="#A78BFA" /> <!-- violet-400 -->
+        </linearGradient>
+    </defs>
+    <!-- Outer Shape -->
+    <path d="M52 6H12C8.68629 6 6 8.68629 6 12V52C6 55.3137 8.68629 58 12 58H52C55.3137 58 58 55.3137 58 52V12C58 8.68629 55.3137 6 52 6Z" fill="#1F2937"/> <!-- gray-800 -->
+    <path d="M52 6H12C8.68629 6 6 8.68629 6 12V52C6 55.3137 8.68629 58 12 58H52C55.3137 58 58 55.3137 58 52V12C58 8.68629 55.3137 6 52 6Z" stroke="#4B5563" stroke-width="2"/> <!-- gray-600 -->
+    
+    <!-- Inner Click Icon -->
+    <path d="M24.7801 19.3333L42.6667 32L32 44.6667L24.7801 36.4468V19.3333Z" fill="url(#logo-gradient)" />
 </svg>
