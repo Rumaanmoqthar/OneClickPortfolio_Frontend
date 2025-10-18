@@ -15,7 +15,7 @@ const Uploader = () => {
   const [message, setMessage] = useState('');
   const [template, setTemplate] = useState(''); // New state for template choice
   const navigate = useNavigate();
-  const apiUrl = 'http://localhost:3000';
+  const apiUrl = import.meta.env.VITE_API_URL ||'http://localhost:3000';
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
